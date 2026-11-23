@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Интерактивно портфолио и учебен план за кандидатстване в INFORCE.">
+  <title>Моето портфолио | INFORCE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#nachalo" aria-label="Към началото">IN<span>FORCE</span><small>ПОРТФОЛИО</small></a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Включи тъмна тема" aria-pressed="false">
+        <span aria-hidden="true">◐</span><span class="theme-label">Тъмна тема</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="nachalo">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Кандидатура за стажантска програма</p>
+        <h1>Моето интерактивно портфолио</h1>
+        <p class="hero-text">Казвам се Велизар Синапов и съм ученик в 11. клас в ППМГ „Васил Левски“ – Смолян. Интересувам се от програмиране, музика и спорт. Харесва ми да превръщам идеи в работещи проекти и да научавам нови неща.</p>
+        <a class="button button-primary" href="#plan">Към учебния план</a>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">Лично представяне</p>
+        <h2 id="about-title">За мен</h2>
+      </div>
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>Моите интереси</h3>
+          <p>Интересувам се от разработка на софтуер и уеб технологии. Имам любопитство и към киберсигурността, а извън програмирането се занимавам с музика и спорт.</p>
+        </article>
+        <article class="info-card">
+          <h3>Защо INFORCE?</h3>
+          <p>След представянето на компанията ви на конференцията в Младежкия център в Смолян останах с впечатлението, че INFORCE е подходяща среда за моето развитие. Виждам стажа като възможност да приложа знанията си и да придобия практически опит.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tinted" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Какво умея и върху какво работя</p>
+          <h2 id="skills-title">Знания и умения</h2>
+        </div>
+        <article class="info-card skills-panel">
+          <ul class="skills-list">
+            <li><strong>C#</strong><span>Знания до обектно-ориентирано програмиране, придобити в училище и по програмата „ИТ Кариера“.</span></li>
+            <li><strong>HTML и CSS</strong><span>Начални познания</span></li>
+            <li><strong>Java</strong><span>Начални познания</span></li>
+            <li><strong>SQL</strong><span>Начални познания</span></li>
+            <li><strong>Codex</strong><span>Опит с използването на AI инструмент за подпомагане на разработката.</span></li>
+            <li><strong>Лични проекти</strong><span>Собствени проекти, чрез които прилагам наученото.</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-tinted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Посока на развитие</p>
+          <h2>Три неща, които искам да науча</h2>
+          <p>Целите могат да се редактират от учебния план по-долу.</p>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card"><span class="number">01</span><h3>Групова разработка</h3><p><strong>Цел</strong> Да се науча да планирам и реализирам проекти съвместно с други хора, като разпределяме задачите и работим за постигането на общ резултат.</p><p><strong>Първа стъпка</strong> Участие в разработването на малък групов проект с предварително разпределени задачи.</p></article>
+          <article class="learning-card"><span class="number">02</span><h3>Работа в програмистки екип</h3><p><strong>Цел</strong> Да разбера как програмистите комуникират, споделят код и работят заедно при решаването на технически проблеми.</p><p><strong>Първа стъпка</strong> Да създам GitHub хранилище и да упражня основните операции с Git, включително качване и споделяне на код.</p></article>
+          <article class="learning-card"><span class="number">03</span><h3>Самостоятелна разработка на проекти</h3><p><strong>Цел</strong> Да мога самостоятелно или в екип да планирам, разработвам и тествам проект от началото до края.</p><p><strong>Първа стъпка</strong> Създаване и тестване на малки проекти с конкретни функционалности, например настоящото интерактивно портфолио.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan" class="section container" aria-labelledby="plan-title">
+      <div class="section-heading plan-heading">
+        <div>
+          <p class="eyebrow">Интерактивен учебен план</p>
+          <h2 id="plan-title">Моите учебни цели</h2>
+        </div>
+        <p class="saved-note">Промените се запазват само в този браузър.</p>
+      </div>
+
+      <div class="progress-panel" aria-label="Напредък по учебния план">
+        <div class="stat"><span>Общо цели</span><strong id="total-goals">0</strong></div>
+        <div class="stat"><span>Завършени</span><strong id="completed-goals">0</strong></div>
+        <div class="stat"><span>Изпълнение</span><strong id="progress-percent">0%</strong></div>
+        <div class="progress-track" aria-hidden="true"><div id="progress-bar" class="progress-bar"></div></div>
+      </div>
+
+      <form id="goal-form" class="goal-form" novalidate>
+        <label for="goal-input">Нова учебна цел</label>
+        <div class="input-row">
+          <input id="goal-input" name="goal" type="text" maxlength="180" placeholder="Например: Упражнявам работа с масиви" autocomplete="off">
+          <button class="button button-primary" type="submit">Добави цел</button>
+        </div>
+        <p id="form-message" class="form-message" role="alert" aria-live="polite"></p>
+      </form>
+
+      <div class="filter-row" aria-label="Филтриране на цели">
+        <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Всички</button>
+        <button class="filter-button" type="button" data-filter="active" aria-pressed="false">Активни</button>
+        <button class="filter-button" type="button" data-filter="completed" aria-pressed="false">Завършени</button>
+      </div>
+
+      <div id="goal-list" class="goal-list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">INFORCE Portfolio · Велизар Синапов</div></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
